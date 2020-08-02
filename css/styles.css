@@ -570,8 +570,7 @@ pre code {
 
 .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
   width: 100%;
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+
   margin-right: auto;
   margin-left: auto;
 }
@@ -10141,11 +10140,11 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+
 }
 header.masthead .masthead-subheading {
   font-size: 40px;
@@ -10167,13 +10166,13 @@ header.masthead .masthead-heading {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
   }
-  header.masthead .masthead-subheading {
+.masthead-subheading {
     font-size: 50px;
     font-style: italic;
     line-height: 2.25rem;
     margin-bottom: 2rem;
   }
-  header.masthead .masthead-heading {
+ .masthead-heading {
     font-size: 6.5rem;
     font-weight: 700;
     line-height: 4.5rem;
@@ -10707,25 +10706,6 @@ color: #cccccc;
   -moz-transform: translateY(-10px);
 }
 
-#services .box .icon {
-  float: left;
-}
-
-#services .box .icon i {
-  color: #444;
-  font-size: 64px;
-  transition: 0.5s;
-  line-height: 0;
-  margin-top: 34px;
-}
-
-#services .box .icon i:before {
-  background: #0c2e8a;
-  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 #services .box h4 {
   margin-left: 100px;
@@ -10734,13 +10714,9 @@ color: #cccccc;
   font-size: 22px;
 }
 
-#services .box h4 a {
-  color: #444;
-}
 
 #services .box p {
   font-size: 14px;
-  margin-left: 100px;
   margin-bottom: 0;
   line-height: 24px;
 }
@@ -10854,3 +10830,98 @@ color: #cccccc;
 
 .contactForm .form-control {
   border: 2px solid rgba(0, 0, 0, 0.05) !important; }
+
+
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  @media (min-width: 768px){
+.slidesimage {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+}
+  }
+
+  .slidesimage{
+    background-image: url("../assets/img/header-bg.jpg");
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+
+  }
+
+  .mySlides{
+    display: none;
+    
+  }
+ 
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+ 
+
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
