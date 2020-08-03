@@ -24,7 +24,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #000;" id="mainNav">
             <div class="container">
-                <a href="#"><img src="assets/img/logo.png" alt="" /></a>
+                <a href="index.html"><img class="img-nav" src="assets/img/logo.png" alt="" /></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ml-1"></i>
@@ -51,7 +51,7 @@
       
               <div class="row">
                 <div class="col-lg-6 about-img wow fadeInLeft">
-                  <img src="img/about-img.jpg" alt="">
+                  <img src="assets/img/lampada.png" alt="" style="width: 100%;">
                 </div>
       
                 <div class="col-lg-6 content wow fadeInRight">
@@ -72,54 +72,177 @@
       
             </div>
           </section>
-      
-                <section class="page-section" id="services">
-                    <div class="container">
-                        <div class="text-center">
-                            <h3 class="section-heading text-uppercase">Cursos</h3>
-                            <span class="section-divider"></span>
-                        </div>
-                    </div>
-                    <div class="showcase__carousel--container">
-                       <!--<i class="fa fa-chevron-left" style="font: size 10px; display:inline-block; vertical-align: middle; float:left;"></i>-->
-                        <div class="showcase__carousel--content">
-                          <div class="showcase__carousel--item">
-                            <h4>PROGRAMAÇÃO PARA ANDROID</h4>
-                            <p>No final do curso o participante estará apto a desenvolver aplicações para a plataforma Android usando o IntelliJ Idea e o Android Sdk</p>
-                          </div>
-                          <div class="showcase__carousel--item">
-                            <h4>PROGRAMAÇÃO AVANÇADA PARA ANDROID</h4>
-                            <p>No final do curso o participante terá uma aplicação feita por si utilizando conceitos avançados de Android.</p>
-                          </div>
-                          <div class="showcase__carousel--item">
-                            <h4>HTML5, JAVASCRIPT, JQUERY E CSS3</h4>
-                            <p>No final do curso o participante estará apto a criar Sites em Html5 acrescentando interatividade através da linguagem JavaScript e da biblioteca Jquery e usando formatação Css3.</p>
-                          </div>
-                          <div class="showcase__carousel--item">
-                            <h4>PROGRAMAÇÃO WEB COM PHP E MYSQL</h4>
-                            <p>No final do curso o participante estará apto a desenvolver Web Sites dinâmicos usando a linguagem PHP e Base de Dados MySql.</p>
-                          </div>
-                      
-                        <!--<i class="fa fa-chevron-right" style="font-size:10px; display:inline-block; float:right;"></i>-->
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="text-center">
-                            <h5 class="section-heading text-uppercase">Informações</h5>
-                            <p>Duração dos cursos: 2 meses, 2 vezes semana, 2h por sessão;</p>
-                            <p>Horário: Segunda e Quarta das 18 às 20h (ou a combinar)</p>
-                            <p>Certificado de frequência;</p>
-                            <p>Preços</p>
-                            <ul style="list-style: none;">
-                                <li>1 pessoa, preço por formando: 240eur./mês;</li>
-                                <li>2 pessoas, preço por formando: 175eur./mês;</li>
-                                <li>3 pessoas, preço por formando: 125eur./mês;</li>
-                            </ul>
-                            <small>* Aos valores indicados acresce Iva à taxa legal em vigor.</small>
-                        </div>
-                    </div>
-                </section>
 
+          <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h3 class="section-heading text-uppercase">Cursos</h3>
+                    <span class="section-divider"></span>
+                </div>
+            </div>
+
+
+            <div class="top-content">
+                <div class="container-fluid">
+                    <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                                <img src="http://placehold.it/280x350?text=1" class="img-fluid mx-auto d-block" alt="img1">
+                                <h4>PROGRAMAÇÃO PARA ANDROID</h4> <br>
+                                <p>No final do curso o participante estará apto a desenvolver aplicações para a plataforma Android usando o IntelliJ Idea e o Android Sdk</p>
+                                <a href="#openModal"class="btn btn-secondary btn-xl text-uppercase" style="margin-top:10px; margin-bottom:5px;">Mais informação</a>
+                                <div id="openModal" class="modalDialog">
+                                    <a href="#close" title="Close" class="close">X</a>
+                                    <h4>PROGRAMAÇÃO PARA ANDROID</h4> <br>
+                                    <h5>Objetivos</h5>
+                                    <p>No final do curso o participante estará apto a desenvolver aplicações para a plataforma Android usando o IntelliJ Idea e o Android Sdk.</p>
+                                    <h5>Pré-Requisitos</h5>
+                                    <p>Conhecimentos básicos de programação.</p>
+                                    <h5>Programa</h5>
+                                    <ul>
+                                        <li>Introdução;</li>
+                                        <li>Programação orientada a Objetos;</li>
+                                        <li>Activities e Intents;</li>
+                                        <li>Views e Layouts com XML;</li>
+                                        <li>Pictures, Menus e Dialogs;</li>
+                                        <li>Views personalizados;</li>
+                                        <li>Adapters;</li>
+                                        <li>Criação de formulários;</li>
+                                        <li>Persistência de dados;</li>
+                                        <li>Android services;</li>
+                                        <li>Publicar Aplicações;</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 ">
+                                <img src="http://placehold.it/280x350?text=2" class="img-fluid mx-auto d-block" alt="img2">
+                                <h4>PROGRAMAÇÃO AVANÇADA PARA ANDROID</h4> 
+                                <p>No final do curso o participante terá uma aplicação feita por si utilizando conceitos avançados de Android.</p>
+                                <a href="#openModal"class="btn btn-secondary btn-xl text-uppercase" style="margin-top:10px; margin-bottom:5px;">Mais informação</a>
+                                <div id="openModal" class="modalDialog">
+                                    <a href="#close" title="Close" class="close">X</a>
+                                    <h4>PROGRAMAÇÃO AVANÇADA PARA ANDROID</h4> <br>
+                                    <h5>Objetivos</h5>
+                                    <p>No final do curso o participante terá uma aplicação feita por si utilizando conceitos avançados de Android.</p>
+                                    <h5>Pré-Requisitos</h5>
+                                    <p>Frequência do Curso de Programação para Android ou conhecimentos similares.</p>
+                                    <h5>Programa</h5>
+                                        <ul>
+                                            <li>Custom Adapters e ViewHolders;</li>
+                                            <li>Contextual Action Bar;</li>
+                                            <li>Navigation Drawer;</li>
+                                            <li>Notificações e Alarmes;</li>
+                                            <li>Fragmentos: Optimização para Tablet;</li>
+                                            <li>Telefonia e SMS;</li>
+                                            <li>Animações;</li>
+                                            <li>Localização e Mapas;</li>
+                                            <li>Multi-Threading;</li>
+                                            <li>WebServices: Consumo de serviços JSON;</li>
+                                            <li>Projeto de aplicação: Permite ao formando ter uma aplicação completa feita por si que poderá ser anexada ao seu Curriculum como Portfolio, fator decisivo hoje em dia para a empregabilidade numa empresa da área.</li>
+                                        </ul>
+                                </div>
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 ">
+                                <img src="http://placehold.it/280x350?text=3" class="img-fluid mx-auto d-block" alt="img3">
+                                <h4>HTML5, JAVASCRIPT, JQUERY E CSS3</h4><br>
+                                <p>No final do curso o participante estará apto a criar Sites em Html5 acrescentando interatividade através da linguagem JavaScript e da biblioteca Jquery e usando formatação Css3.</p>
+                                <a href="#openModal"class="btn btn-secondary btn-xl text-uppercase" style="margin-top:10px; margin-bottom:5px;">Mais informação</a>
+                                <div id="openModal" class="modalDialog">
+                                    <a href="#close" title="Close" class="close">X</a>
+                                    <h4>HTML5, JAVASCRIPT, JQUERY E CSS3</h4> <br>
+                                    <h5>Objetivos</h5>
+                                    <p>No final do curso o participante estará apto a criar Sites em Html5 acrescentando interatividade através da linguagem JavaScript e da biblioteca Jquery e usando formatação Css3.</p>
+                                    <h5>Pré-Requisitos</h5>
+                                    <p>Conhecimentos básicos de informática.</p>
+                                    <h5>Programa</h5>
+                                    <ul>
+                                        <li>HTML5: Conceitos gerais, semântica, boas práticas, SEO e acessibilidade;</li>
+                                        <li>CSS3 além das propriedades básicas, com foco em código reutilizável e fléxivel;</li>
+                                        <li>Interatividade com JavaScript, incluindo uso de jQuery e plugins;</li>
+                                        <li>Tipos de referências e elementos;</li>
+                                        <li>Manipulação do Dom usando Jquery</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 ">
+                                <img src="http://placehold.it/280x350?text=4" class="img-fluid mx-auto d-block" alt="img4">
+                                <h4>PROGRAMAÇÃO WEB COM PHP E MYSQL</h4> <br>
+                                <p>No final do curso o participante estará apto a desenvolver Web Sites dinâmicos usando a linguagem PHP e Base de Dados MySql.</p>
+                                <a href="#openModal"class="btn btn-secondary btn-xl text-uppercase" style="margin-top:10px; margin-bottom:5px;">Mais informação</a>
+                                <div id="openModal" class="modalDialog">
+                                    <a href="#close" title="Close" class="close">X</a>
+                                    <h4>PROGRAMAÇÃO WEB COM PHP E MYSQL</h4> <br>
+                                    <h5>Objetivos</h5>
+                                    <p>No final do curso o participante estará apto a desenvolver Web Sites dinâmicos usando a linguagem PHP e Base de Dados MySql.</p>
+                                    <h5>Pré-Requisitos</h5>
+                                    <p>Conhecimentos gerais de html.</p>
+                                    <h5>Programa</h5>
+                                    <ul>
+                                        <li>Configuração do MySQL;</li>
+                                        <li>Criação da base de dados MySQL;</li>
+                                        <li>Ferramentas de gestão de bases de dados;</li>
+                                        <li>Tipos de acesso a bases de dados;</li>
+                                        <li>Configuração do acesso a base de dados;</li>
+                                        <li>Listagem de dados;</li>
+                                        <li>Inserção, alteração e eliminação de dados;</li>
+                                        <li>Introdução ao Ajax:</li>
+                                        <ul>
+                                            <li>Noções gerais de Javascript;</li>
+                                            <li>Chamadas Ajax;</li>
+                                            <li>Tratamento de respostas;</li>
+                                            <li>Refrescamento parcial de páginas;</li>
+                                            <li>Manipulação de dados com Ajax;</li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 ">
+                                <img src="http://placehold.it/280x350?text=5" class="img-fluid mx-auto d-block" alt="img5">
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                <img src="http://placehold.it/280x350?text=6" class="img-fluid mx-auto d-block" alt="img6">
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                <img src="http://placehold.it/280x350?text=7" class="img-fluid mx-auto d-block" alt="img7">
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                <img src="http://placehold.it/280x350?text=8" class="img-fluid mx-auto d-block" alt="img8">
+                            </div>-->
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+          <br>
+              <div class="container box" >
+                <div class="text-center">
+                    <h5 class="section-heading text-uppercase">Informações</h5>
+                    <p>Duração dos cursos: 2 meses, 2 vezes semana, 2h por sessão;</p>
+                    <p>Horário: Segunda e Quarta das 18 às 20h (ou a combinar)</p>
+                    <p>Certificado de frequência;</p>
+                    <p>Preços</p>
+                    <ul style="list-style: none;">
+                        <li>1 pessoa, preço por formando: 240eur./mês;</li>
+                        <li>2 pessoas, preço por formando: 175eur./mês;</li>
+                        <li>3 pessoas, preço por formando: 125eur./mês;</li>
+                    </ul>
+                    <small>* Aos valores indicados acresce Iva à taxa legal em vigor.</small>
+                </div>
+            </div>
+
+          </section>
+      
+                
+                   
+            
 
                 <section class="page-section" id="services">
                     <div class="container">
